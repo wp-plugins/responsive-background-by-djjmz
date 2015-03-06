@@ -14,7 +14,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-Easy way change background image/color to fully responsive image. Compatible with all browsers: compoters, all phone and tablets.
+Easy way change background image/color to fully responsive image. Compatible with all browsers: computers, all phone and tablets.
  
 
 == Installation ==
