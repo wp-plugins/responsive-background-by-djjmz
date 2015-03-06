@@ -2,7 +2,7 @@
 	/*
 		Plugin Name: Responsive Background by DJJMZ
 		Plugin URI: 
-		Description: Easy way chabge background image/color to fully responsive image. Compatible with all browsers: compoters, all phone and tablets.
+		Description: Easy way change background image/color to fully responsive image. Compatible with all browsers: computers, all phone and tablets.
 		Version: 1.0
 		Author: djjmz
 		Author URI: 
