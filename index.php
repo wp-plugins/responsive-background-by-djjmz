@@ -3,7 +3,7 @@
 		Plugin Name: Responsive Background by DJJMZ
 		Plugin URI: 
 		Description: Easy way change background image/color to fully responsive image. Compatible with all browsers: computers, all phone and tablets.
-		Version: 1.0
+		Version: 1.1
 		Author: djjmz
 		Author URI: 
 	*/
@@ -21,7 +21,7 @@ background-size: cover;
 }
 	add_action('admin_menu', 'rb_add_menu');
 	function rb_add_menu() {
-		add_menu_page('RB Settings', 'RB Settings', 'manage_options', 'rb_settings', 'rb_settings', plugins_url('responsive-background/img/logo.jpg'), 6);
+		add_options_page('RB Settings', 'RB Settings', 'manage_options', 'rb_settings', 'rb_settings');
 	}
 	function rb_settings() {
 		if(isset($_POST['change']) and !empty($_POST['url'])){

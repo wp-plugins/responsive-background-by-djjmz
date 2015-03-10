@@ -9,6 +9,9 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Changelog ==
 
+= 1.1 =
+* Small code update
+
 = 1.0 =
 * First Release
 
