@@ -28,9 +28,9 @@ background-size: cover;
 			if(checkRemoteFile($_POST['url'])){
 			$option_exists = (get_option('rb_background', null) !== null);			
 			if ($option_exists) {
-				update_option('rb_background', $_POST['url']);
+				update_option('rb_background', sanitize_text_field($_POST['url']));
 				} else {
-				add_option('rb_background', $_POST['url']);
+				add_option('rb_background', sanitize_text_field($_POST['url']));
 			}
 			}
 		}
